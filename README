@@ -1,0 +1,11 @@
+To start the program run
+python run.py
+I recomend using postman for api operations.
+List of entry points
+/api/login                      [POST | name, email, password]
+/api/signup                     [POST | email, password]
+/api/post                       [POST | text | Login required via  x-access-token]
+/api/like                       [POST | post_public_id | Login required via  x-access-token]
+/api/unlike                     [POST | post_public_id | Login required via  x-access-token]
+/api/analitics/                 [GET | date_from, date_to]
+/api/user_activity_analitics/   [GET | user_public_id]
